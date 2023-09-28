@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %} Extract {% endblock %}
+     
+{% block body %}
+<h1>Result Of Extraction</h1>
+<form action="/save" method="Post">
+    <div class="form-group">
+        <input type="text" class="form-control" name="result" value="{{result}}">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" name="location" value="{{location}}">
+    </div>
+    <button class="btn btn-primary btn-block">Save</button>
+</form>
+{% endblock %}

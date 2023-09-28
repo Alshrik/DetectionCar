@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %} Data {% endblock %}
+     
+{% block body %}
+      <br><br>
+      <section class="allData">
+        <h1>All Camera Detection</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Car Plate Number</th>
+                    <th>Car Location</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in data %}
+                <tr>
+                    <td>{{row[0]}}</td>
+                    <td>{{row[1]}}</td>
+                    <td>{{row[2]}}</td>
+                    <td>{{row[3]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+      </section>
+{% endblock %}

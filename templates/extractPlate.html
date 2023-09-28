@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %} Extract {% endblock %}
+     
+{% block body %}
+<h1>Result Of Extraction</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Number Plate</th>
+                <th>Location car</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{result}}</td>
+                <td>{{location}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="/save" class="btn btn-primary">Save</a>
+{% endblock %}

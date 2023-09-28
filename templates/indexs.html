@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/min.css">
+    <title>بحث لوحة السيارات</title>
+</head>
+<body class="index">
+    <div class="upload">
+        <div class="search">
+            <form  method="post" action="{{url_for('search')}}">
+                <input class="srch"  type="text" name="plate_number" placeholder="ادخل رقم اللوحه">
+                <input class="btn" type="submit" name="submit" value="بحث">
+            </form>
+        </div>
+    </div>
+    <br><br>
+    <div>
+        <form action="/indexs">
+            <button type="submit">Go Extract</button>
+        </form>
+    </div>
+    <br>
+    <div>
+        <form method="post" action="/allData">
+            <input type="submit" value="اللوحات المكتشفة">
+        </form>
+    </div>
+    <div>
+        <form method="post" action="/about"></form>
+    </div>
+</body>
+</html>

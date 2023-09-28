@@ -1,0 +1,199 @@
+.index{
+    margin: 0;
+    padding: 0;
+}
+.div11{
+    background-color: black;
+}
+.search{
+    width: 330px;
+    float: right;
+    margin-right: 1%;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 29px;
+    background: transparent;
+    border: 1px solid hsl(323, 91%, 44%);
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color:black;
+    font-size: 15px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.extract{
+    width: 330px;
+    float: left;
+    margin-left: 1%;
+}
+.extra{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 29px;
+    background: transparent;
+    border: 1px solid hsl(323, 91%, 44%);
+    margin-top: 13px;
+    color: black;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.local{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 29px;
+    background: transparent;
+    border: 1px solid hsl(323, 91%, 44%);
+    margin-top: 13px;
+    color: black;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn1{
+    width: 100px;
+    height: 50px;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    transition: 0.2s ease;
+    cursor: pointer;.index{
+        margin: 0;
+        padding: 0;
+    }
+    .div11{
+        background-color: black;
+    }
+    .search{
+        width: 330px;
+        float: right;
+        margin-right: 1%;
+    }
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 29px;
+        background: transparent;
+        border: 1px solid hsl(323, 91%, 44%);
+        margin-top: 13px;
+        color: black;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .btn{
+        width: 100px;
+        height: 50px;
+        
+        border: 2px solid #ff7200;
+        margin-top: 13px;
+        color:black;
+        font-size: 15px;
+        transition: 0.2s ease;
+        cursor: pointer;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .extract{
+        width: 330px;
+        float: left;
+        margin-left: 1%;
+    }
+    .extra{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 29px;
+        background: transparent;
+        border: 1px solid hsl(323, 91%, 44%);
+        margin-top: 13px;
+        color: black;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .local{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 29px;
+        background: transparent;
+        border: 1px solid hsl(323, 91%, 44%);
+        margin-top: 13px;
+        color: black;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .btn1{
+        width: 100px;
+        height: 50px;
+        border: 2px solid #ff7200;
+        margin-top: 13px;
+        color: black;
+        font-size: 15px;
+        transition: 0.2s ease;
+        cursor: pointer;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    table{
+        width: 100%;
+        border-spacing: 0px;
+    }
+    table td{
+        padding: 12px;
+        background-color: #EEE;
+        border: 1px solid #ccc;
+    }
+    table thead td{
+        background-color: #ff7200;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }    
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+table{
+    width: 100%;
+    border-spacing: 0px;
+}
+table td{
+    padding: 12px;
+    background-color: #EEE;
+    border: 1px solid #ccc;
+}
+table thead td{
+    background-color: #ff7200;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

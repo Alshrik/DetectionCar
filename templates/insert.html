@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %} Insert {% endblock %}
+     
+{% block body %}
+       <br><br>
+       <section class="insert">
+        <div>
+            <form  action="/extract" method="post" enctype="multipart/form-data">
+                <input class="form-control form-control-lg" type="file" name="picture" required><br>
+                <input class="form-control form-control-lg" type="text" name="location" placeholder="ادخل موقع السيارة" required>
+                <input class="btn btn-primary primary-btn btn-lg" type="submit" value="استخراج الرقم">
+            </form>
+        </div><br>
+       </section>
+{% endblock %}
